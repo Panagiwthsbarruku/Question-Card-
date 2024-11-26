@@ -1,0 +1,60 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{
+    margin: 0%;
+    font-family: Arial,sans-serif;
+    display:  flex;
+    justify-content: center;
+    height: 50vh;
+    background: #f0f0f0;
+    margin: 10% auto;
+
+}
+
+
+.card{
+    background: #ffffff;
+    color: #fff;
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0,0, 0.2);
+    text-align: center;
+    border-top: 60px solid black;
+}
+ .question h2{
+    font-size: 20px;
+margin: 20px 0;
+color: #fff;
+margin-top: -20%;
+}
+.question button{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    background: #ffffff;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.options button span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right:10px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+font-weight: bold;
+}
+.options button:hover{
+    background: #e0e0e0;
+    border: none;
+}
